@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  user-select: none;
+  color:black;
+}
+
+html {
+  font-size: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+@media only screen and (max-width: 1366px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 8px;
+  }
+}

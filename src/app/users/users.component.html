@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let user of users">
+    <a [routerLink]="[ '/detail', user.id ]">{{user.name}}</a>
+    <p>{{user.username}}</p>
+    <p>{{user.email}}</p>
+  </li>
+</ul>

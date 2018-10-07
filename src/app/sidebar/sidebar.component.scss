@@ -1,0 +1,21 @@
+.sidebar-root {
+    padding: 20px;
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        a {
+            padding: 0 3px;
+            margin:10px 0;
+            font-size: 1.6rem;
+            &.active {
+                color:blue;
+            }
+        }
+    }
+}
